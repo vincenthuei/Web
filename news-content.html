@@ -10,6 +10,8 @@
     <!-- Tailwind -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/antd@4.12.0/dist/antd.min.css" />
 </head>
 <body class="bg-gray font-family-Montserrat flex h-auto">
 
@@ -17,9 +19,6 @@
         <div class="py-6-5 px-10">
             <a href="index.html" class="text-white text-3xl font-semibold uppercase hover:text-gray-300"><img src="./images/swiftbot-logo.svg" class="mw-183"></a>
             
-            <!-- <button class="w-full bg-white cta-btn font-semibold py-2 mt-5 rounded-br-lg rounded-bl-lg rounded-tr-lg shadow-lg hover:shadow-xl hover:bg-gray-300 flex items-center justify-center">
-                <i class="fas fa-plus mr-3"></i> New Report
-            </button> -->
         </div>
         <div class="balance-holder text-white">
             <h4>Total Balance</h4>
@@ -65,7 +64,7 @@
         </a> -->
     </aside>
 
-    <div class="w-full flex flex-col bg-inside-api">
+    <div class="w-full flex flex-col bg-image">
         <!-- Desktop Header -->
         <header class="w-full items-center bg-white pt-90 px-11 hidden xl:flex">
             <div class="w-1/2">
@@ -195,72 +194,109 @@
         <div class="w-full border-t flex flex-col">
             <main class="w-full flex-grow py-5 px-12">
                 <div class="flex items-center pt-8">
-                    <button><img src="./images/back-btn.svg"></button>
-                </div>
-                <div class="flex">
-                    <div class="api-title">
-                        <h1 class="text-2xl text-black font-semibold">API List</h1>
-                        <div class="text-style pt-8">
-                            <div class="text-sm font-bold">Bind your API with your binance account</div>
-                            <div class="text-sm">Don't have an account? <a href="#">Click here</a></div>
-                        </div>
-                    </div>
+                    <button class="mr-6"><img src="./images/back-btn.svg"></button>
+                    <h1 class="text-2xl text-black font-semibold mb-0">Media</h1>
                 </div>
                 
                 <div class="mt-130">
-                    
-                    <div class="grid grid-cols-1 px-2 gap-4 mt-180">
+                   
+          
+                   
+                            <div class="ant-tabs ant-tabs-top ant-tabs-mobile" style="color:black">
+                                <div role="tablist" class="ant-tabs-nav">
+                                    <div class="ant-tabs-nav-wrap">
+                                        <div class="ant-tabs-nav-list flex" style="transform:translate(0px, 0px)">
+                                            <div class="ant-tabs-tab">
+                                                <div role="tab" aria-selected="false" class="ant-tabs-tab-btn" tabindex="0" id="rc-tabs-0-tab-liquidationRecord"
+                                                    aria-controls="rc-tabs-0-panel-liquidationRecord">
+                                                    <div class="text-center" style="white-space:pre-line">Social Media</div>
+                                                </div>
+                                            </div>
+                                            <div class="ant-tabs-tab ant-tabs-tab-active">
+                                                <div role="tab" aria-selected="true" class="ant-tabs-tab-btn" tabindex="0"
+                                                    id="rc-tabs-0-tab-transactions" aria-controls="rc-tabs-0-panel-transactions">
+                                                    <div class="text-center" style="white-space:pre-line">News</div>
+                                                </div>
+                                            </div>
 
-        
-                        <div class="px-4">
-                            <form class="ant-form ant-form-horizontal">
-                                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                    <div class="col-span-1">
-                                        <div class="text-sm my-2 font-bold">API KEY :</div>
-                                        <div class="text-sm py-1">Ajaklsd********asdkl</div>
+                                            <div class="ant-tabs-ink-bar ant-tabs-ink-bar-animated" style="left: 119px; width: 45px;"></div>
+                                        </div>
                                     </div>
-                                    <div class="col-span-1">
-                                        <div class="text-sm my-2 font-bold">SECRET KEY :</div>
-                                        <div class="text-sm py-1">HKJHK**********asdd</div>
-                                    </div>
-                                    <div class="col-span-1">
-                                        <div class="text-sm flex items-center mt-4 mb-2 font-bold">API <img src="./images/yes.svg"/ class="ml-1"></div>
+                                    <div class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"></div>
+                                </div>
+                                <div class="ant-tabs-content-holder">
+                                    <div class="ant-tabs-content ant-tabs-content-top">
+                                        <div role="tabpanel" tabindex="0" aria-hidden="false" style=""
+                                            class="ant-tabs-tabpane ant-tabs-tabpane-active" id="rc-tabs-0-panel-transactions"
+                                            aria-labelledby="rc-tabs-0-tab-transactions">
+                                            <div class="" style="min-height: 140px;">
+                                                <div class="ant-list ant-list-vertical ant-list-split ant-list-something-after-last-item">
+                                                    <div class="ant-spin-nested-loading">
+                                                        
+                                                        <div class="ant-spin-container light-bg rounded-xl cursor-pointer overflow-hidden">
+                                                            <div class="text-xs w-full" style="color: #707070;">
+                                                                <div class="grid grid-cols-6 p-10 gap-10">
+
+                                                                    
+                                                                    <div class="col-span-4">
+                                                                        <div class="text-black text-base font-semibold  mh-60">
+                                                                            What are Crypto Wallets and How Does It Work?
+                                                                        </div>
+                                                                        <div class="text-sm text-black font-semibold">
+                                                                            <p>Just like cash, there are wallets for cryptocurrencies to keep your digital assets safe and secure.</p>
+                                                                            
+                                                                            <p>A crypto wallet can either be a software or hardware application which stores private keys linked with your
+                                                                            cryptocurrency. As cryptocurrencies digitally exist on a blockchain, they can’t be physically touched. However, as
+                                                                            technology improves , there is a need for users and corporations to recognize the importance of owning these digital
+                                                                            assets and the need to know how much is held, same as how banks show our bank balance.</p>
+                                                                            
+                                                                            <p>Fundamentally, a crypto wallet is used for crypto owners to verify their account balance whereby they have amount
+                                                                            visibility and also conduct sending and receiving transactions. This is a main tool to manage crypto balances for most
+                                                                            owners.</p>
+                                                                            
+                                                                            <p>Just like cash, there are wallets for cryptocurrencies to keep your digital assets safe and secure.</p>
+                                                                            
+                                                                            <p>A crypto wallet can either be a software or hardware application which stores private keys linked with your
+                                                                            cryptocurrency. As cryptocurrencies digitally exist on a blockchain, they can’t be physically touched. However, as
+                                                                            technology improves , there is a need for users and corporations to recognize the importance of owning these digital
+                                                                            assets and the need to know how much is held, same as how banks show our bank balance.</p>
+                                                                            
+                                                                            <p>Just like cash, there are wallets for cryptocurrencies to keep your digital assets safe and secure.</p>
+                                                                            
+                                                                            <p>A crypto wallet can either be a software or hardware application which stores private</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-span-2">
+                                                                        <img src="./images/news-1.jpg" class="w-full" alt="news">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                 
+
+                                              
+                                              
+
+                                                   
+
+                                                      
+
+                                                        
+                                                    </div>
+                                             
+                                                </div>
+                                            </div>
+                                        </div>
+                                  
                                     </div>
                                 </div>
-                            </form>
+                            </div>
+                   
         
-                        </div>
-        
-                
-        
-                        <div class="px-4">
-                            <button type="button" class="btn-green text-sm">
-                                Submit
-                            </button>
-                        </div>
-                    </div>
-        
-                    <div class="grid grid-cols-6 px-2 gap-4 mt-6">
-                        <div class=" col-span-3 px-4 text-style">
-                            <div class="text-sm font-bold">How to bind API?</div>
-                        </div>
-                        <div class=" col-span-1 px-4 text-style">
-                            <div class="right"><img src="./images/right-arrow.svg"/></div>
-                        </div>
-        
-        
-                        <div class=" col-span-3 px-4 text-style">
-                            <div class="text-sm font-bold">If your API is invalid, please make sure
-                                you’ve fulfilled the requirements as below:</div>
-                        </div>
-                        <div class=" col-span-1 px-4 text-style flex items-center">
-                            <div class="right"><img src="./images/right-arrow.svg"/></div>
-                        </div>
-                    </div>
-        
-        
-        
-
+             
+                 
+           
 
                 </div>
     

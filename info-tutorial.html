@@ -10,6 +10,8 @@
     <!-- Tailwind -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/antd@4.12.0/dist/antd.min.css" />
 </head>
 <body class="bg-gray font-family-Montserrat flex h-auto">
 
@@ -17,9 +19,6 @@
         <div class="py-6-5 px-10">
             <a href="index.html" class="text-white text-3xl font-semibold uppercase hover:text-gray-300"><img src="./images/swiftbot-logo.svg" class="mw-183"></a>
             
-            <!-- <button class="w-full bg-white cta-btn font-semibold py-2 mt-5 rounded-br-lg rounded-bl-lg rounded-tr-lg shadow-lg hover:shadow-xl hover:bg-gray-300 flex items-center justify-center">
-                <i class="fas fa-plus mr-3"></i> New Report
-            </button> -->
         </div>
         <div class="balance-holder text-white">
             <h4>Total Balance</h4>
@@ -65,7 +64,7 @@
         </a> -->
     </aside>
 
-    <div class="w-full flex flex-col bg-inside-api">
+    <div class="w-full flex flex-col bg-image">
         <!-- Desktop Header -->
         <header class="w-full items-center bg-white pt-90 px-11 hidden xl:flex">
             <div class="w-1/2">
@@ -195,72 +194,107 @@
         <div class="w-full border-t flex flex-col">
             <main class="w-full flex-grow py-5 px-12">
                 <div class="flex items-center pt-8">
-                    <button><img src="./images/back-btn.svg"></button>
-                </div>
-                <div class="flex">
-                    <div class="api-title">
-                        <h1 class="text-2xl text-black font-semibold">API List</h1>
-                        <div class="text-style pt-8">
-                            <div class="text-sm font-bold">Bind your API with your binance account</div>
-                            <div class="text-sm">Don't have an account? <a href="#">Click here</a></div>
-                        </div>
-                    </div>
+                    <button class="mr-6"><img src="./images/back-btn.svg"></button>
+                    <h1 class="text-2xl text-black font-semibold mb-0">Info</h1>
                 </div>
                 
                 <div class="mt-130">
-                    
-                    <div class="grid grid-cols-1 px-2 gap-4 mt-180">
+                   
+          
+                   
+                            <div class="ant-tabs ant-tabs-top ant-tabs-mobile" style="color:black">
+                                <div role="tablist" class="ant-tabs-nav">
+                                    <div class="ant-tabs-nav-wrap">
+                                        <div class="ant-tabs-nav-list flex" style="transform:translate(0px, 0px)">
+                                            <div class="ant-tabs-tab">
+                                                <div role="tab" aria-selected="false" class="ant-tabs-tab-btn" tabindex="0" id="rc-tabs-0-tab-liquidationRecord"
+                                                    aria-controls="rc-tabs-0-panel-liquidationRecord">
+                                                    <div class="text-center" style="white-space:pre-line">User Guide</div>
+                                                </div>
+                                            </div>
+                                            <div class="ant-tabs-tab ant-tabs-tab-active">
+                                                <div role="tab" aria-selected="true" class="ant-tabs-tab-btn" tabindex="0"
+                                                    id="rc-tabs-0-tab-transactions" aria-controls="rc-tabs-0-panel-transactions">
+                                                    <div class="text-center" style="white-space:pre-line">Tutorial</div>
+                                                </div>
+                                            </div>
+                                            <div class="ant-tabs-tab">
+                                                <div role="tab" aria-selected="false" class="ant-tabs-tab-btn" tabindex="0" id="rc-tabs-0-tab-liquidationRecord"
+                                                    aria-controls="rc-tabs-0-panel-liquidationRecord">
+                                                    <div class="text-center" style="white-space:pre-line">FAQ</div>
+                                                </div>
+                                            </div>
+                                            <div class="ant-tabs-ink-bar ant-tabs-ink-bar-animated" style="left: 106px; width: 63px;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"></div>
+                                </div>
+                                <div class="ant-tabs-content-holder">
+                                    <div class="ant-tabs-content ant-tabs-content-top">
+                                        <div role="tabpanel" tabindex="0" aria-hidden="false" style=""
+                                            class="ant-tabs-tabpane ant-tabs-tabpane-active" id="rc-tabs-0-panel-transactions"
+                                            aria-labelledby="rc-tabs-0-tab-transactions">
+                                            <div class="" style="min-height: 140px;">
+                                                <div class="ant-list ant-list-vertical ant-list-split ant-list-something-after-last-item">
+                                                    <div class="ant-spin-nested-loading grid grid-cols-12 gap-4">
+                                                        <div class="ant-spin-container gray-bg px-30 col-span-12 cursor-pointer">
+                                                            <div class="items-start text-xs py-5" style="color: #707070;">
+                                                                <div class="text-sm">
+                                                                    <span class="text-black font-semibold">How to create new account on SwiftCoin</span>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
 
-        
-                        <div class="px-4">
-                            <form class="ant-form ant-form-horizontal">
-                                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                    <div class="col-span-1">
-                                        <div class="text-sm my-2 font-bold">API KEY :</div>
-                                        <div class="text-sm py-1">Ajaklsd********asdkl</div>
-                                    </div>
-                                    <div class="col-span-1">
-                                        <div class="text-sm my-2 font-bold">SECRET KEY :</div>
-                                        <div class="text-sm py-1">HKJHK**********asdd</div>
-                                    </div>
-                                    <div class="col-span-1">
-                                        <div class="text-sm flex items-center mt-4 mb-2 font-bold">API <img src="./images/yes.svg"/ class="ml-1"></div>
+                                                        <div class="ant-spin-container gray-bg px-30 col-span-12 cursor-pointer">
+                                                            <div class="items-start text-xs py-5" style="color: #707070;">
+                                                                <div class="text-sm">
+                                                                    <span class="text-black font-semibold">Identity Verification</span>
+                                                                </div>
+                                                        
+                                                            </div>
+                                                        </div>
+
+                                                        
+                                                    </div>
+                                                    <div class="ant-list-pagination">
+                                                        <ul class="ant-pagination ant-pagination-simple">
+                                                            <li title="Previous Page" class="ant-pagination-prev ant-pagination-disabled"
+                                                                aria-disabled="true"><button class="ant-pagination-item-link" type="button"
+                                                                    tabindex="-1" disabled=""><span role="img" aria-label="left"
+                                                                        class="anticon anticon-left"><svg viewBox="64 64 896 896"
+                                                                            focusable="false" data-icon="left" width="1em" height="1em"
+                                                                            fill="currentColor" aria-hidden="true">
+                                                                            <path
+                                                                                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z">
+                                                                            </path>
+                                                                        </svg></span></button></li>
+                                                            <li title="1/644" class="ant-pagination-simple-pager"><input type="text" size="3"
+                                                                    value="1"><span class="ant-pagination-slash">/</span>644</li>
+                                                            <li title="Next Page" class="ant-pagination-next" aria-disabled="false"><button
+                                                                    class="ant-pagination-item-link" type="button" tabindex="-1"><span
+                                                                        role="img" aria-label="right" class="anticon anticon-right"><svg
+                                                                            viewBox="64 64 896 896" focusable="false" data-icon="right"
+                                                                            width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                                                                            <path
+                                                                                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z">
+                                                                            </path>
+                                                                        </svg></span></button></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" tabindex="-1" aria-hidden="true" style="display:none" class="ant-tabs-tabpane"
+                                            id="rc-tabs-0-panel-liquidationRecord" aria-labelledby="rc-tabs-0-tab-liquidationRecord"></div>
                                     </div>
                                 </div>
-                            </form>
+                            </div>
+                   
         
-                        </div>
-        
-                
-        
-                        <div class="px-4">
-                            <button type="button" class="btn-green text-sm">
-                                Submit
-                            </button>
-                        </div>
-                    </div>
-        
-                    <div class="grid grid-cols-6 px-2 gap-4 mt-6">
-                        <div class=" col-span-3 px-4 text-style">
-                            <div class="text-sm font-bold">How to bind API?</div>
-                        </div>
-                        <div class=" col-span-1 px-4 text-style">
-                            <div class="right"><img src="./images/right-arrow.svg"/></div>
-                        </div>
-        
-        
-                        <div class=" col-span-3 px-4 text-style">
-                            <div class="text-sm font-bold">If your API is invalid, please make sure
-                                you’ve fulfilled the requirements as below:</div>
-                        </div>
-                        <div class=" col-span-1 px-4 text-style flex items-center">
-                            <div class="right"><img src="./images/right-arrow.svg"/></div>
-                        </div>
-                    </div>
-        
-        
-        
-
+             
+                 
+           
 
                 </div>
     

@@ -14,6 +14,13 @@
 .nav-item:hover { background: var(--corporateGreen); transition: all .3s ease-in-out;}
 .account-link:hover { background: var(--corporateGreen); transition: all .3s ease-in-out;}
 
+.mr-15px{
+  margin-right:15px;
+}
+
+.nav-item img{
+  max-width:24px;
+}
 
 header a, a{
     color: #000000;
@@ -52,6 +59,7 @@ nav a:hover{
     font-size: 17px;
     margin-bottom: 0.5rem;
     line-height: normal;
+    color:#fff;
 }
 .balance-holder .t-balance {
     font-size: 27px;
@@ -62,6 +70,9 @@ nav a:hover{
     padding-top: 1.313rem;
 
 }
+
+
+
 .top-nav{
     margin-bottom: 0;
 }
@@ -182,13 +193,39 @@ nav a.active-nav-link{
     cursor: pointer;
 }
 
+.light-bg{
+  background: #F9F9F9;
+}
+
 .navItem-bg-color:hover {
     background:#013648;
 }
 .mt-130{
     margin-top: 8.125rem;
 }
+.ant-tabs-tab{
+  font-weight: 600;
+}
+.ant-tabs-nav-list .ant-tabs-tab:hover {
+  color: #43C1A9;
+}
 
+
+.news-photo{
+  height:auto;
+}
+
+.news-content{
+  
+}
+
+.mh-60{
+  min-height:60px;
+}
+
+.mw-50{
+  max-width:50px;
+}
 
 /* Mobile CSS */
 .mt-180{
@@ -223,6 +260,10 @@ nav a.active-nav-link{
 
   .ant-modal.mx-size.small-modal{
     max-width:calc(410px - 32px);
+  }
+
+  .ant-modal.mx-size.white-theme {
+    background: #fff;
   }
 
   .ant-modal.mx-size{
@@ -576,6 +617,7 @@ nav a.active-nav-link{
   }
   .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
     color:#43C1A9 !important;
+    font-weight: 600 !important;
   }
 
   .ant-tabs-ink-bar{
@@ -595,6 +637,10 @@ nav a.active-nav-link{
     background:#DEDEDE;
     padding: 0 10px;
     border-radius: 20px;
+  }
+
+  .gray-bg.p-30{
+    padding: 30px;
   }
 
   .gray-bg.px-30{
